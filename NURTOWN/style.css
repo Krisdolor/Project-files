@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 250px;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 102px;
+    box-shadow: 0 8px 8px -4px lightblue;
+    /* border: 1px solid red; */
+}
+
+.navlinkd {
+    position: absolute;
+    right: 840px;
+    border-top: 1px solid black;
+    padding: 30px;
+    color: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid black;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+
+}
+
+.navlinksss {
+    padding: 30px;
+    color: black;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+
+}
+
+.navlinks {
+    margin-right: 200px;
+}
+
+.buildingimg {
+    height: 829px;
+    width: 770px;
+
+}
+
+.projectimg {
+    position: relative;
+    height: 840px;
+    display: flex;
+}
+
+.projecttext {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+}
+
+.buildingdiv {
+    position: absolute;
+    left: 660px;
+}
+
+.project {
+    font-family: "Baskervville SC", serif;
+    color: #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+}
+
+.nurtown {
+    font-family: "Anton SC", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.arrows {
+    position: absolute;
+    top: 550px;
+    left: 250px;
+}
+
+.arrowright {
+    position: absolute;
+    left: 75px;
+}
+
+.boximage {
+    position: absolute;
+    top: 758px;
+    left: 655px;
+}
+
+.slide-numbers {
+    position: absolute;
+    top: 700px;
+    left: 250px;
+}
+
+.glasssection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1180px;
+    height: 435px;
+    border: 1px solid red;
+    background-color: #FBFBFB;
+    margin-left: 250px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-left: 150px;
+
+}
+
+.glasstexth {
+    color: #BDBDBD;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 64px;
+
+}
+
+.topglassimg {
+    margin-bottom: 20px;
+}
+
+.numbers {
+    border: 1px solid red;
+    width: 1180px;
+    height: 350px;
+    margin-left: 250px;
+
+}
+
+.number1 {
+    display: flex;
+    line-height: 36px;
+    padding-right: 200px;
+}
+
+.number2 {
+    display: flex;
+    line-height: 36px;
+}
+
+.numbersdiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 10px;
+    padding-right: 200px;
+    gap: 70px;
+    padding-top: 45px;
+}
+
+.numbersheader {
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    color: gray;
+    margin-top: 90px;
+}
+
+.numberglasstext {
+    margin-left: 5px;
+}
+
+.downheader {
+    font-family: TT Hoves;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    color: #BDBDBD;
+    padding-bottom: 30px;
+
+}
+
+.footerimages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footerimages2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer1 {
+    padding-right: 35px;
+}
+
+.bottomfooterbody {
+    position: absolute;
+    left: 250px;
+    margin-top: 90px;
+}
+
+.footerimagetext {
+    position: relative;
+    width: 420px;
+    bottom: 500px;
+    left: 60px;
+}
+
+.framearrow {
+    position: absolute;
+    bottom: 70px;
+    left: 960px;
+}
+
+.required {
+    color: red;
+}
+
+.formbody {
+    border: 1px solid red;
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 900px;
+    gap: 30px;
+
+}
+
+.formsinput {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #f3f3f3;
+    border: none;
+}
+
+.formsinput2 {
+    width: 350px;
+    background-color: #f3f3f3;
+    border: none;
+}
+
+.phonemantext {
+    font-family: TT Hoves;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 500px;
+    color: #BDBDBD; 
+}
+
+.phonemanimg {
+    position: absolute;
+    top: 70px;
+    height: 350px;
+    right: 20px;
+    width: 790px;
+}
+
+.formtext {
+    border: 1px solid red;
+    width: 300px;
+    size: 5px;
+    font-weight: 300;
+    height: 34px;
+    color: black;
+    margin-left: 40px;
+}
+
+.formsubmit {
+    position: absolute;
+    top: 480px;
+}
+
+.footert {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-decoration: none;
+}
+footer {
+    position: relative;
+    background-color: #2c2c2c;
+    height: 320px;
+    top: 1100px;
+    left: 100px;
+    width: 1400px;
+
+}
+
+.iconsfooter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footera a {
+    color: white;
+    
+}
+
+.footerwhite {
+    width: 100px;
+    height: 70px;
+    
+}
+
+.footerwhitediv {
+    margin-top: 40px;
+}
+
+.footera {
+    margin-top: 40px;
+}
+
+.footerhh {
+    margin-top: 40px;
+}
+
+hr {
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.footerlast {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+    color: #ffffff;
+    font-size: 12px;
+}
