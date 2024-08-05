@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* font-family: inter; */
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 80px;
+    border-bottom: 1px solid rgb(174, 174, 176);
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.headertabs {
+    display: flex;
+    list-style: none;
+}
+
+i {
+    color: black;
+}
+
+.headersocials {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.links {
+    margin: 25px;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inter;
+}
+
+.socials {
+    margin: 15px
+}
+
+.blogarticle-h {
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 47.45px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 40px;
+
+}
+
+.blogarticle-p {
+    font-family: inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: grey;
+    margin-bottom: 30px;
+
+}
+
+.blockimgdivs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.herodiv {
+    text-align: center;
+    /* position: relative; */
+
+}
+
+.blogdiv {
+    position: relative;
+}
+
+.inputstyle {
+    height: 55px;
+    width: 500px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    margin-bottom: 40px;
+}
+
+.buttn {
+    width: 160px;
+    height: 43px;
+    border-radius: 15px;
+    position: absolute;
+    left: 695px;
+    bottom: 46px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    color: white;
+    background-color: black;
+
+}
+
+.tastyrecipe-h {
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 38.73px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.leftsideimgs {
+    width: 600px;
+    padding: 10px 0;
+}
+
+.rightimgtext {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.arrowswipediv {
+    display: flex;
+    justify-content: center;
+}
+
+.arrowswipe {
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.adsimg {
+    width: 250px;
+    padding: 50px 0;
+}
+
+
+
+
+
+.maskedgroupimg {
+    position: relative;
+}
+
+.delicious-h {
+    position: absolute;
+    top: 75px;
+    left: 385px;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 38.09px;
+    letter-spacing: -0.04em;
+
+
+}
+
+.delicious-p {
+    width: 600px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(116, 116, 117);
+    padding: 0 70px;
+    text-align: center;
+
+
+}
+
+.maskdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.maskedimg {
+    width: 1100px;
+
+}
+
+.inputsub {
+    width: 480px;
+    height: 60px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 370px;
+    top: 250px;
+}
+
+.sub-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 695px;
+    top: 255px;
+
+}
+
+.near-footerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    padding-left: 45px;
+
+}
+
+.footer-pp {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgb(126, 126, 129);
+
+}
+
+.webcolor {
+    color: rgb(215, 120, 12);
+}
+
+.webtextd {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.68px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    font-family: inter;
+}
+
+footer {
+    display: flex;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 240px;
+}

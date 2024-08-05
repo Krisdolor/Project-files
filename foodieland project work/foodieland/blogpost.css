@@ -1,0 +1,319 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 80px;
+    border-bottom: 1px solid rgb(174, 174, 176);
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.headertabs {
+    display: flex;
+    list-style: none;
+}
+
+.headersocials {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.links {
+    margin: 25px;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inter;
+}
+
+.socials {
+    margin: 15px
+}
+
+.hero-text {
+    text-align: center;
+    padding: 40px 40px;
+}
+
+.cooking {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    /* cursor: pointer; */
+}
+
+.cookingdiv {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.womancook {
+    width: 650px;
+}
+
+.guide-h {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 77.45px;
+    letter-spacing: -0.04em;
+
+}
+
+.guide-p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 0 100px;
+
+}
+
+i {
+    color: black;
+    padding: 10px 0;
+}
+
+.recipe-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 15px;
+    padding: 0 35px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    /* gap: 10px; */
+}
+.recipediv-img {
+    width: 270px;
+}
+
+.check-div {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.checkout-text {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 43.57px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+}
+
+.question-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.womancookbox {
+    width: 750px;
+    font-family: inter;
+
+}
+
+.headersocial {
+    list-style: none;
+}
+
+.headersocial-div {
+    display: flex;
+    justify-content: center;
+}
+
+.share-socials {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+}
+
+.womancook {
+    margin-top: 20px;
+}
+
+.firsttext-div {
+    margin-bottom: 90px;
+}
+
+.firsttext-p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgb(53, 53, 53);
+
+}
+
+.gradient-rectangle {
+    background: linear-gradient(90deg, #e2e1e1 0%, #faf8f8be);
+    height: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px grey;
+
+}
+
+.gradient-text {
+    width: 600px;
+    font-style: italic;
+    text-align: left;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 1px;
+
+}
+
+.firsttext-h {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.04em;
+    text-align: left;
+
+}
+
+.maskedgroupimg {
+    position: relative;
+}
+
+.maskdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.delicious-h {
+    position: absolute;
+    top: 75px;
+    left: 385px;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 38.09px;
+    letter-spacing: -0.04em;
+
+
+}
+
+.delicious-p {
+    width: 600px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(116, 116, 117);
+    padding: 0 70px;
+    text-align: center;
+
+}
+
+.maskedimg {
+    width: 1100px;
+
+}
+
+.inputsub {
+    width: 480px;
+    height: 60px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 370px;
+    top: 250px;
+}
+
+.sub-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 695px;
+    top: 255px;
+
+}
+
+/*styling the bottom div*/
+.near-footerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    padding-left: 45px;
+}
+
+.footer-pp {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgb(126, 126, 129);
+
+}
+
+/* .webcolor {
+    color: rgb(215, 120, 12);
+}
+
+.footerdiv {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 240px;
+} */
+.webcolor {
+    color: rgb(215, 120, 12);
+}
+
+.webtextd {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.68px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    font-family: inter;
+}
+
+footer {
+    display: flex;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 240px;
+}

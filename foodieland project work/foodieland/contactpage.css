@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: inter;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 80px;
+    border-bottom: 1px solid rgb(174, 174, 176);
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.headertabs {
+    display: flex;
+    list-style: none;
+}
+
+.headersocials {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.links {
+    margin: 25px;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inter;
+}
+
+.socials {
+    margin: 15px
+}
+
+.hero-section {
+    margin-left: 40px;
+}
+
+.newchefdiv {
+    display: flex;
+    gap: 25px;
+    margin-left: 40px;
+
+}
+
+.contactusdiv {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contactus-p {
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 77.45px;
+    letter-spacing: -0.04em;
+
+}
+
+.malechefimg {
+    width: 330px;
+}
+
+/* .inputdiv {
+    
+}  */
+
+.inputdivone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px; 
+    margin-top: 50px;
+
+}
+.textarea-div {
+    margin-top: 10px;
+}
+
+/* .form-divs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.bigbox {
+    grid-column: 2/8;
+} */
+
+.inputtext {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+button {
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.formtext {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    padding: 20px 0;
+
+}
+
+/* marked subscribe div */
+.maskedgrp-section {
+    margin-top: 100px;
+}
+
+.maskedgroupimg {
+    position: relative;
+}
+
+.maskdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.delicious-h {
+    position: absolute;
+    top: 75px;
+    left: 385px;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 38.09px;
+    letter-spacing: -0.04em;
+
+
+}
+
+.delicious-p {
+    width: 600px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(116, 116, 117);
+    padding: 0 70px;
+    text-align: center;
+
+}
+
+.maskedimg {
+    width: 1100px;
+
+}
+
+.inputsub {
+    width: 480px;
+    height: 60px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 370px;
+    top: 250px;
+}
+
+.sub-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 695px;
+    top: 225px;
+
+}
+
+.check-div {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.checkout-text {
+    font-family: inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 43.57px;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+.near-footerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    padding-left: 45px;
+
+}
+
+.footerdiv {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 240px;
+}
+
+
+
+
+
+
+
+i {
+    color: black;
+}
+
+.recipe-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 15px;
+    padding: 0 35px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    /* gap: 10px; */
+}
+
+.recipediv-img {
+    width: 270px;
+}
+
+.webcolor {
+    color: rgb(215, 120, 12);
+}
+
+.webtextd {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.68px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    font-family: inter;
+}
+
+.footer-pp {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgb(126, 126, 129);
+
+}
